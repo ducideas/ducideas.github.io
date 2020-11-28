@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/quan-tri*</pattern>
+	</decorator>
+	
+	<decorator name="employer" page="employer.jsp">
+		<pattern>/nha-tuyen-dung*</pattern>
+	</decorator>
+	
+	<decorator name="candidate" page="candidate.jsp">
+		<pattern>/quan-ly-ho-so*</pattern>
+	</decorator>
+</decorators>
